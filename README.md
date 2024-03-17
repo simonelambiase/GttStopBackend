@@ -1,4 +1,4 @@
-Ci tengo ad iniziare questo readme con un enorme ringraziamento a **madbob** che grazie al lavoro già fatto per studiare l'API di Muoversi a Torino mi ha permesso di fare questo sviluppo in tempi brevi:
+Ci tengo ad iniziare questo readme con un enorme ringraziamento a **madbob** che grazie al lavoro già fatto per studiare l'API di Muoversi a Torino mi ha permesso di fare questo sviluppo in modo agevole:
 https://github.com/madbob/gtt-pirate-api
 
 Questo progetto nasce dalla mia esigenza del crearmi un backend personale per poter ottenere comodamente i dati dei prossimi passaggi dei bus nella città di Torino.
