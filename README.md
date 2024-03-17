@@ -8,7 +8,7 @@ Al momento sto ospitando per me il servizio su questo endpoint:
 
 http://simonelambiase.it:8080/api/stop?stopNumber=754&lineNumber=49&hours=12
 
-Il servizio potrebbe andare offline per manutenzione sul server o aggiornamenti dello stesso, quindi non assicuro il funzionamento 24h 
+Il servizio potrebbe andare offline per manutenzione sul server o aggiornamenti dello stesso, quindi non assicuro il funzionamento 24h.
 L'unico parametro mandatorio è lo **stopNumber**, gli altri parametri sono facoltativi.
 
 http://simonelambiase.it:8080/api/stop?stopNumber=754
