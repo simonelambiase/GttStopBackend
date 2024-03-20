@@ -1,4 +1,4 @@
-package it.simonelambiase.StopGttService.mato.model.response.passage;
+package it.simonelambiase.StopGttService.service.model.response.passage;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

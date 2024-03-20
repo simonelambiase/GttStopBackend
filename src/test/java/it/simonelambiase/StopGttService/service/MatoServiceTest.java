@@ -1,14 +1,12 @@
-package it.simonelambiase.StopGttService.mato;
+package it.simonelambiase.StopGttService.service;
 
-import it.simonelambiase.StopGttService.mato.model.response.passage.BusPassage;
-import it.simonelambiase.StopGttService.mato.model.response.passage.BusPassageDTO;
+import it.simonelambiase.StopGttService.service.model.response.passage.BusPassage;
+import it.simonelambiase.StopGttService.service.model.response.passage.BusPassageDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.graphql.tester.AutoConfigureGraphQlTester;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
