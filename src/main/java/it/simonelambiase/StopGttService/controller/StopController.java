@@ -23,6 +23,7 @@ import static it.simonelambiase.StopGttService.utils.TimeUtils.calculateRemainin
 
 @RestController
 @RequestMapping("/api/stop")
+@CrossOrigin(origins = "*")
 public class StopController {
 
     private ObjectMapper objectMapper = new ObjectMapper();
