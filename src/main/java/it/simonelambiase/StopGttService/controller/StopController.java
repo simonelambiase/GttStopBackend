@@ -1,15 +1,12 @@
 package it.simonelambiase.StopGttService.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import it.simonelambiase.StopGttService.exception.MissingArgumentException;
 import it.simonelambiase.StopGttService.model.ResponseModel;
 import it.simonelambiase.StopGttService.service.MatoService;
-import it.simonelambiase.StopGttService.service.model.response.ResponseError;
-import it.simonelambiase.StopGttService.service.model.response.passage.BusPassageDTO;
+import it.simonelambiase.StopGttService.service.model.mato.response.ResponseError;
+import it.simonelambiase.StopGttService.service.model.mato.response.passage.BusPassageDTO;
 import it.simonelambiase.StopGttService.utils.ErrorUtils;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,7 +27,6 @@ public class StopController {
 
     @Autowired
     private MatoService matoService;
-
 
     @GetMapping
     public ResponseEntity<ResponseModel> retrievePassagesByStopAndLine (@RequestParam(required = true) String stopNumber, @RequestParam(required = false) String lineNumber, @RequestParam(required = false) String hours ) {

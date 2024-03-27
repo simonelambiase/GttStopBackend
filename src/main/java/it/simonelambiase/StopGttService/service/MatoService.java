@@ -1,10 +1,9 @@
 package it.simonelambiase.StopGttService.service;
 
-import com.fasterxml.jackson.core.JacksonException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import it.simonelambiase.StopGttService.exception.MatoServiceException;
-import it.simonelambiase.StopGttService.service.model.response.stop.StopRoutes;
-import it.simonelambiase.StopGttService.service.model.response.passage.BusPassage;
+import it.simonelambiase.StopGttService.service.model.mato.response.stop.StopRoutes;
+import it.simonelambiase.StopGttService.service.model.mato.response.passage.BusPassage;
 import kong.unirest.HttpResponse;
 import kong.unirest.JsonNode;
 import kong.unirest.Unirest;

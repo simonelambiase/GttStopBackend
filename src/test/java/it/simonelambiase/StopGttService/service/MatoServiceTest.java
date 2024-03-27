@@ -1,7 +1,7 @@
 package it.simonelambiase.StopGttService.service;
 
-import it.simonelambiase.StopGttService.service.model.response.passage.BusPassage;
-import it.simonelambiase.StopGttService.service.model.response.passage.BusPassageDTO;
+import it.simonelambiase.StopGttService.service.model.mato.response.passage.BusPassage;
+import it.simonelambiase.StopGttService.service.model.mato.response.passage.BusPassageDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -2,7 +2,7 @@ package it.simonelambiase.StopGttService.utils;
 
 import it.simonelambiase.StopGttService.exception.MatoServiceException;
 import it.simonelambiase.StopGttService.exception.MissingArgumentException;
-import it.simonelambiase.StopGttService.service.model.response.ResponseError;
+import it.simonelambiase.StopGttService.service.model.mato.response.ResponseError;
 
 import static it.simonelambiase.StopGttService.Constants.*;
 

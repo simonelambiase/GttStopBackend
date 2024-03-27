@@ -1,4 +1,4 @@
-package it.simonelambiase.StopGttService.service.model.response.passage;
+package it.simonelambiase.StopGttService.service.model.mato.response.passage;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -11,7 +11,10 @@ public class BusPassageDTO {
 
     private String hour;
 
+    private String direction;
+
     private boolean realtime;
+
 
     public BusPassageDTO() {}
 
@@ -25,6 +28,7 @@ public class BusPassageDTO {
         this.line = busPassage.getLine().getShortName();
         this.realtime = busPassage.isRealtime();
         this.hour = convertSecondToHour(busPassage.getRealtimeArrival());
+        this.direction = busPassage.getStopHeadsign();
     }
 
     public String getLine() {
@@ -49,6 +53,14 @@ public class BusPassageDTO {
 
     public void setRealtime(boolean realtime) {
         this.realtime = realtime;
+    }
+
+    public String getDirection() {
+        return direction;
+    }
+
+    public void setDirection(String direction) {
+        this.direction = direction;
     }
 
     protected String convertSecondToHour(long arrivalTime ) {

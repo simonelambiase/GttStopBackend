@@ -1,4 +1,4 @@
-package it.simonelambiase.StopGttService.service.model.response.stop;
+package it.simonelambiase.StopGttService.service.model.mato.response.stop;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

@@ -1,4 +1,4 @@
-package it.simonelambiase.StopGttService.service.model.response;
+package it.simonelambiase.StopGttService.service.model.mato.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreType;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@Component
 public class ResponseError implements Serializable {
 
     private String errorMessage;
